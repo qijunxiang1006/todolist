@@ -1,8 +1,29 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
-# Editor-based HTTP Client requests
-/httpRequests/
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+*coverage.txt
+
+.idea
+*.iml
+
+webapp/node_modules
+webapp/.pnp
+webapp/.pnp.js
+webapp/coverage
+webapp/build
+webapp/.DS_Store
+webapp/.env.local
+webapp/.env.development.local
+webapp/.env.test.local
+webapp/.env.production.local
+webapp/npm-debug.log*
